@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.ts";
 import { name, age } from "./bases/01-types.ts";
 import { numbers } from "./bases/02-objects.ts";
+import { daniel } from "./bases/03-clases.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
