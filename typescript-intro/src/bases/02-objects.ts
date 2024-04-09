@@ -20,3 +20,12 @@ export const person: Person = {
   lastName: "gutierrez",
   age: 32,
 };
+
+export const person2: Person = {
+  name: "oscar",
+  lastName: "gutierrez",
+  age: 32,
+};
+
+export const persons: Person[] = [];
+persons.push(person, person2);
