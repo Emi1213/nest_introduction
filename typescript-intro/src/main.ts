@@ -3,6 +3,7 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.ts";
 import { name, age } from "./bases/01-types.ts";
+import { numbers } from "./bases/02-objects.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
@@ -14,6 +15,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     </a>
     <h1>Hello ${name}!</h1>
     <h2>Age: ${age}</h2>
+    <h3>Numbers: ${numbers.join(",")}</h3>
   </div>
 `;
 
